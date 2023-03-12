@@ -16,7 +16,7 @@ public interface NoteDao {
     @Insert()
     void insert(Note note);
 
-    @Query("SELECT * FROM note")
+    @Query("SELECT * FROM note ORDER BY id DESC")
     LiveData<List<Note>> findAll();
 
     @Query("SELECT * FROM note WHERE id=:id LIMIT 1")

@@ -33,6 +33,10 @@ public class NoteRepository {
         return allNotes;
     }
 
+    public LiveData<List<Note>> findAllDescending() {
+        return allNotes;
+    }
+
     public LiveData<Note> findById(Integer id) {
         return noteDao.findById(id);
     }

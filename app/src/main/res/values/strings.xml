@@ -3,7 +3,12 @@
     <string name="add_note">Add Note</string>
     <string name="list_notes">All Notes</string>
     <string name="write_a_note">Write a Note</string>
-    <string name="new_note_placeholder">Write your note here!</string>
+    <string name="new_note_title_placeholder">Write your note here!</string>
+    <string name="new_note_description_placeholder">Describe your note!</string>
     <string name="write_a_note_title">Title</string>
     <string name="write_a_note_description">Description</string>
+    <string name="card_note_title">Title</string>
+    <string name="card_note_description">Description</string>
+    <string name="fragment_title_list_notes">Notes</string>
+    <string name="fragment_title_add_note">New Note</string>
 </resources>
