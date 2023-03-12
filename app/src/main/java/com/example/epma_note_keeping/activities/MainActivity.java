@@ -1,4 +1,4 @@
-package com.example.epma_note_keeping;
+package com.example.epma_note_keeping.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -8,6 +8,8 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import android.os.Bundle;
+
+import com.example.epma_note_keeping.R;
 
 public class MainActivity extends AppCompatActivity {
     private Toolbar toolbar;
