@@ -27,7 +27,7 @@
         android:clickable="true"
         android:contentDescription="Add Note"
         android:focusable="true"
-        app:backgroundTint="#EA80FC"
+        app:backgroundTint="@color/purple_200"
         app:elevation="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

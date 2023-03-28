@@ -13,7 +13,7 @@
         android:layout_marginTop="5dp"
         android:layout_marginEnd="5dp"
         android:layout_marginBottom="10dp"
-        app:cardBackgroundColor="#92C78EFB"
+        app:cardBackgroundColor="@color/purple_100"
         app:cardCornerRadius="6dp"
         app:cardElevation="3dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -28,7 +28,7 @@
             android:layout_marginStart="0dp"
             android:layout_marginTop="0dp"
             android:layout_marginEnd="0dp"
-            android:layout_marginBottom="0dp" >
+            android:layout_marginBottom="0dp">
 
             <TextView
                 android:id="@+id/title"

@@ -24,8 +24,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="@string/new_note_title_placeholder"
+        android:inputType="textPersonName"
+        android:textColorLink="@color/purple_200"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/create_a_note_title_textview" />
@@ -53,7 +54,7 @@
         android:clickable="true"
         android:contentDescription="Save Note"
         android:focusable="true"
-        app:backgroundTint="#EA80FC"
+        app:backgroundTint="@color/purple_200"
         app:elevation="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -72,6 +73,7 @@
         android:inputType="textMultiLine"
         android:lines="5"
         android:textAlignment="viewStart"
+        android:textColorLink="@color/purple_200"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/create_a_note_description_textview" />
